@@ -45,6 +45,6 @@ void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 
 // File08.c 함수 선언
 void file08(void);
-void normalkg(float CM);
-int bodymass(float CM, float KG);
+float normalkg(float CM);
+void bodymass(float CM, float KG);
 void Obesity(float KG, float Normal_KG_Result);
