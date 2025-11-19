@@ -2,6 +2,8 @@
 #include "main.h"
 
 
+
+//	메인 함수
 int main(void)
 {
 

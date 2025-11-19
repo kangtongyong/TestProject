@@ -1,4 +1,4 @@
-// 대충 짠 헤더
+//	대충 짠 헤더
 
 //#ifdef <stdio.h>
 //#undef <stdio.h>
@@ -9,25 +9,25 @@
 #pragma once
 
 
-// 귀찮아서 선언
+//	귀찮아서 선언
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
 
-// exefuncsion.c 함수 선언
+//	exefuncsion.c 함수 선언
 void backslashN(void);
 void exefuncsion(void);
 
 
 
-// File04.c 함수 선언
+//	File04.c 함수 선언
 void file04(void);
 int maxresult(int m, int n);
 void leastresult(int M, int N, int RESULT);
 
 
-// File06.c 구조체 및 함수 선언
+//	File06.c 구조체 및 함수 선언
 #define ARRAY_SIZE 3
 
 
@@ -43,7 +43,7 @@ void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 
 
-// File08.c 함수 선언
+//	File08.c 함수 선언
 void file08(void);
 float normalkg(float CM);
 void bodymass(float CM, float KG);
