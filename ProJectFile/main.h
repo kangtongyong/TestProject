@@ -42,6 +42,9 @@ void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 
+//	File07.c 함수 선언
+void file07(void);
+void printtriangle(int repeatnum);
 
 //	File08.c 함수 선언
 void file08(void);
