@@ -24,11 +24,11 @@ void file04(void)
 	//	최대 공약수 저장 변수
 	int result = 0;
 
-	printf("최소공배수와 최대공약수\n\n");
+	printf("최소공배수와 최대공약수\n");
 
 	while (1)
 	{
-		printf("두개의 숫자를 입력합니다.\n");
+		printf("\n두개의 숫자를 입력합니다.\n");
 
 		printf("첫번째 숫자를 입력하고 Enter>");
 		scanf("%d", &x);
@@ -39,7 +39,7 @@ void file04(void)
 		//	조건인 x < y 체크
 		if (x >= y)
 		{
-			printf("x는 y미만 이여아 함.\n");
+			printf("\nx는 y미만 이여아 함.\n");
 			continue;
 		}
 
