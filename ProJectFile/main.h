@@ -13,6 +13,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 
 //	exefuncsion.c 함수 선언

@@ -17,7 +17,6 @@ void file07(void)
 	printf("ÇàÀÇ ¼ö:");
 	scanf("%d", &inputnum);
 
-
 	printtriangle(inputnum);
 
 	return;
@@ -29,18 +28,13 @@ void printtriangle(int repeatnum)
 	int i, j;
 	int linecount = 0;
 
-	
-
-	for (i = 0; i < repeatnum; i++)
-
-
 
 	for (i = 0; i < repeatnum; i++)
 	{
 		linecount++;
 		for (j = 0; j < linecount; j++)
 		{
-			printf("%d  ", linecount + j);
+			printf("%3d  ", linecount + j);	//	¸ô¶ó
 		}
 		backslashN();
 	}
