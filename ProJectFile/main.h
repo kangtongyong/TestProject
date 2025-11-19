@@ -28,9 +28,8 @@ int maxresult(int m, int n);
 void leastresult(int M, int N, int RESULT);
 
 
-//	File06.c 구조체 및 함수 선언
+//	File06.c 함수 선언
 #define ARRAY_SIZE 3
-
 
 extern int a[ARRAY_SIZE][ARRAY_SIZE];
 extern int b[ARRAY_SIZE][ARRAY_SIZE];
@@ -52,3 +51,10 @@ void file08(void);
 float normalkg(float CM);
 void bodymass(float CM, float KG);
 void Obesity(float KG, float Normal_KG_Result);
+
+//	File22.c 구조체 및 함수 선언
+void file22(void);
+void case1(void);
+void case2(void);
+void case3(void);
+void case4(void);
