@@ -18,22 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="exefuncsion.c" />
-    <ClCompile Include="File04.c" />
-    <ClCompile Include="File06.c" />
-    <ClCompile Include="Main.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="main.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f05144a6-7a92-41ef-b28d-884d610651be}</ProjectGuid>
-    <RootNamespace>Project04</RootNamespace>
+    <ProjectGuid>{758a86a9-1c1d-4c45-a3ec-bec4d92f82b9}</ProjectGuid>
+    <RootNamespace>ProJectFile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ProjectFile</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
