@@ -8,10 +8,11 @@ void backslashN(void)
 void exefuncsion(void)
 {
 
-	//file04();
-	//backslashN();
+	file04(); backslashN();
 
-	file06();
+	file06(); backslashN();
+	
+
 
 	return;
 }
