@@ -17,6 +17,7 @@
 
 
 // exefuncsion.c 함수 선언
+void backslashN(void);
 void exefuncsion(void);
 
 
@@ -30,18 +31,10 @@ void leastresult(int M, int N, int RESULT);
 // File06.c 구조체 및 함수 선언
 #define ARRAY_SIZE 3
 
-int A[ARRAY_SIZE][ARRAY_SIZE] =
-{
-	{1,2,3},
-	{4,5,6},
-	{7,8,9}
-};
-int B[ARRAY_SIZE][ARRAY_SIZE] =
-{
-	{3,6,9},
-	{2,5,8},
-	{1,4,7}
-};
+
+extern int a[ARRAY_SIZE][ARRAY_SIZE];
+extern int b[ARRAY_SIZE][ARRAY_SIZE];
+
 
 void file06(void);
 void matrixA(int A[][ARRAY_SIZE]);

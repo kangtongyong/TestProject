@@ -51,7 +51,7 @@ void file04(void)
 		}
 	}
 
-	printf("\n");
+	backslashN();
 
 	result = maxresult(x, y);
 	leastresult(x, y, result);

@@ -1,10 +1,15 @@
 #include "main.h"
 
+void backslashN(void)
+{
+	printf("\n");
+}
+
 void exefuncsion(void)
 {
 
-	file04();
-	printf("\n");
+	//file04();
+	//backslashN();
 
 	file06();
 
