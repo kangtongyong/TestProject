@@ -4,10 +4,8 @@
 
 int main(void)
 {
-	file04();
 
-	file06();
-
+	exefuncsion();
 
 	return 0;
 }
