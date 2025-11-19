@@ -21,6 +21,9 @@
     <ClCompile Include="File04.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="File06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

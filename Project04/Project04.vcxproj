@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="File04.c" />
+    <ClCompile Include="File06.c" />
     <ClCompile Include="Main.c" />
   </ItemGroup>
   <ItemGroup>

@@ -6,7 +6,9 @@ int main(void)
 {
 	file04();
 
+	file06();
 
 
 	return 0;
 }
+
