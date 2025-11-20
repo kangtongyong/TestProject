@@ -27,18 +27,18 @@ void leastresult(int M, int N, int RESULT);
 
 
 //	File06.c 함수 선언
-#define ARRAY_SIZE 3	//	배열 사이즈
+#define FILE06_ARRAY_SIZE 3	//	배열 사이즈
 
-extern int a[ARRAY_SIZE][ARRAY_SIZE];	//	전역 선언
-extern int b[ARRAY_SIZE][ARRAY_SIZE];	//	전역 선언
+extern int a[FILE06_ARRAY_SIZE][FILE06_ARRAY_SIZE];	//	전역 선언
+extern int b[FILE06_ARRAY_SIZE][FILE06_ARRAY_SIZE];	//	전역 선언
 
 void file06(void);
-void matrixA(int A[][ARRAY_SIZE]);
-void matrixB(int B[][ARRAY_SIZE]);
+void matrixA(int A[][FILE06_ARRAY_SIZE]);
+void matrixB(int B[][FILE06_ARRAY_SIZE]);
 
-void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
-void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
-void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
+void addAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);
+void subtractionAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);
+void multiplyAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);
 
 
 //	File07.c 함수 선언
@@ -56,6 +56,7 @@ void Obesity(float KG, float Normal_KG_Result);
 
 //	File22.c 함수 선언
 
+void file22(void);
 
 //	Project22.c 구조체 및 함수 선언
 #define WEEK_COUNT 5		//	일의 개수

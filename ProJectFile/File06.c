@@ -7,7 +7,7 @@
 void file06(void)
 {
 	//	기본 2차원 배열 1
-	int a[ARRAY_SIZE][ARRAY_SIZE] =
+	int a[FILE06_ARRAY_SIZE][FILE06_ARRAY_SIZE] =
 	{
 		{1,2,3},
 		{4,5,6},
@@ -15,7 +15,7 @@ void file06(void)
 	};
 	
 	//	기본 2차원 배열 2
-	int b[ARRAY_SIZE][ARRAY_SIZE] =
+	int b[FILE06_ARRAY_SIZE][FILE06_ARRAY_SIZE] =
 	{
 		{3,6,9},
 		{2,5,8},
@@ -33,14 +33,14 @@ void file06(void)
 
 
 //	기본 2차원 배열 A 출력 함수
-void matrixA(int A[][ARRAY_SIZE])
+void matrixA(int A[][FILE06_ARRAY_SIZE])
 {
 	printf("matrix A:\n");
 	
 	
-	for (int i = 0; i < ARRAY_SIZE; i++)
+	for (int i = 0; i < FILE06_ARRAY_SIZE; i++)
 	{
-		for (int j = 0; j < ARRAY_SIZE; j++)
+		for (int j = 0; j < FILE06_ARRAY_SIZE; j++)
 		{
 			printf("  %2d", A[i][j]);
 		}
@@ -53,14 +53,14 @@ void matrixA(int A[][ARRAY_SIZE])
 
 
 //	기본 2차원 배열 B 출력 함수
-void matrixB(int B[][ARRAY_SIZE])
+void matrixB(int B[][FILE06_ARRAY_SIZE])
 {
 	printf("matrix B:\n");
 	
 	
-	for (int i = 0; i < ARRAY_SIZE; i++)
+	for (int i = 0; i < FILE06_ARRAY_SIZE; i++)
 	{
-		for (int j = 0; j < ARRAY_SIZE; j++)
+		for (int j = 0; j < FILE06_ARRAY_SIZE; j++)
 		{
 			printf("  %2d", B[i][j]);
 		}
@@ -73,14 +73,14 @@ void matrixB(int B[][ARRAY_SIZE])
 
 
 //	배열 + 배열 함수
-void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
+void addAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE])
 {
 	printf("matrix A + matrix B:\n");
 	
 	
-	for (int i = 0; i < ARRAY_SIZE; i++)
+	for (int i = 0; i < FILE06_ARRAY_SIZE; i++)
 	{
-		for (int j = 0; j < ARRAY_SIZE; j++)
+		for (int j = 0; j < FILE06_ARRAY_SIZE; j++)
 		{
 			printf("  %2d", A[i][j] + B[i][j]);
 		}
@@ -93,14 +93,14 @@ void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 
 
 //	배열 - 배열 함수
-void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
+void subtractionAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE])
 {
 	printf("matrix A - matrix B:\n");
 	
 	
-	for (int i = 0; i < ARRAY_SIZE; i++)
+	for (int i = 0; i < FILE06_ARRAY_SIZE; i++)
 	{
-		for (int j = 0; j < ARRAY_SIZE; j++)
+		for (int j = 0; j < FILE06_ARRAY_SIZE; j++)
 		{
 			printf("  %2d", A[i][j] - B[i][j]);
 		}
@@ -113,14 +113,14 @@ void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 
 
 //	배열 * 배열 함수
-void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
+void multiplyAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE])
 {
 	printf("matrix A * matrix B:\n");
 	
 	
-	for (int i = 0; i < ARRAY_SIZE; i++)
+	for (int i = 0; i < FILE06_ARRAY_SIZE; i++)
 	{
-		for (int j = 0; j < ARRAY_SIZE; j++)
+		for (int j = 0; j < FILE06_ARRAY_SIZE; j++)
 		{
 			printf("  %2d", A[i][j] * B[i][j]);
 		}
