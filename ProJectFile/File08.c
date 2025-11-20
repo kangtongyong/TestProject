@@ -22,7 +22,7 @@ void file08(void)
 	backslashN();
 	
 	printf("판정 결과\n");
-	backslashN(); backslashN;
+	backslashN(); backslashN();
 	
 	normal_kg_result = normalkg(cm);
 	bodymass(cm, kg);
