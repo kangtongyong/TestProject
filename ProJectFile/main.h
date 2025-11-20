@@ -55,6 +55,7 @@ void bodymass(float CM, float KG);
 void Obesity(float KG, float Normal_KG_Result);
 
 //	File22.c 함수 선언
+#define FILE22_ARRAY_SIZE 10
 
 void file22(void);
 

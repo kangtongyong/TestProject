@@ -6,8 +6,24 @@
 
 void file22(void)
 {
-
-
-
+	char st1[FILE22_ARRAY_SIZE];
+	char st2[FILE22_ARRAY_SIZE];
+	
+	
+	
 	return;
+}
+
+
+void reserse_han()
+{
+	
+	
+}
+
+
+void remove_blank()
+{
+	
+	
 }
