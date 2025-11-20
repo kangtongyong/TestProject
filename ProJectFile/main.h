@@ -20,7 +20,6 @@ void backslashN(void);
 void exefuncsion(void);
 
 
-
 //	File04.c 함수 선언
 void file04(void);
 int maxresult(int m, int n);
@@ -33,7 +32,6 @@ void leastresult(int M, int N, int RESULT);
 extern int a[ARRAY_SIZE][ARRAY_SIZE];
 extern int b[ARRAY_SIZE][ARRAY_SIZE];
 
-
 void file06(void);
 void matrixA(int A[][ARRAY_SIZE]);
 void matrixB(int B[][ARRAY_SIZE]);
@@ -41,9 +39,13 @@ void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE]);
 
+
 //	File07.c 함수 선언
+#define ARRAY_DOUBLE_SIZE 256
+
 void file07(void);
 void printtriangle(int repeatnum);
+
 
 //	File08.c 함수 선언
 void file08(void);
@@ -51,9 +53,23 @@ float normalkg(float CM);
 void bodymass(float CM, float KG);
 void Obesity(float KG, float Normal_KG_Result);
 
+
 //	File22.c 구조체 및 함수 선언
+#define WEEK_COUNT 5
+
+typedef struct year_seesion
+{
+	int year;
+	int session;
+	
+}Year_Seesion;
+
+
+
+
 void file22(void);
 void case1(void);
 void case2(void);
 void case3(void);
 void case4(void);
+void case5(void);

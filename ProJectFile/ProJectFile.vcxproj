@@ -24,7 +24,10 @@
     <ClCompile Include="File06.c" />
     <ClCompile Include="File07.c" />
     <ClCompile Include="File08.c" />
-    <ClCompile Include="File22.c" />
+    <ClCompile Include="File22.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Main.c" />
   </ItemGroup>
   <ItemGroup>

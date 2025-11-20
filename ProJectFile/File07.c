@@ -6,6 +6,7 @@
 */
 
 
+//	입력할 행의 수를 입력받는 함수
 void file07(void)
 {
 	int inputnum = 0;
@@ -22,18 +23,39 @@ void file07(void)
 }
 
 
+//	행의 수만큼 배열에 수를 추가하고 출력하는 함수
 void printtriangle(int repeatnum)
 {
-	int i, j;
-	int linecount = 0;
+	int trianglearr[ARRAY_DOUBLE_SIZE][ARRAY_DOUBLE_SIZE];	//	= { 1, };
 	
 	
-	for (i = 0; i < repeatnum; i++)
+	// 삼각형 숫자 할당
+	for (int i = 0; i < repeatnum; i++)
 	{
-		linecount++;
-		for (j = 0; j < linecount; j++)
+		for (int j = 0; j <= i; j++)
 		{
-			printf("%3d  ", linecount + j);	//	몰라
+			//	j의 첫번쨰 출력을 1, j 의 마지막 출력을 1로 함
+			if (j == 0 || j == i)
+			{
+				trianglearr[i][j] = 1;		//	수정
+			}
+			else
+			{
+				trianglearr[i][j]=			// 배열 i행,j열 (현재 입력하는 행과 열)
+					trianglearr[i - 1][j - 1] +		//	현재 행 - 1, 열 - 1 + 
+					trianglearr[i - 1][j];			//	현재 행 - 1, 열
+			}
+		}
+	}
+	
+	
+	//	삼각형 출력
+	backslashN();
+	for (int i = 0; i < repeatnum; i++)
+	{
+		for (int j = 0; j <= i; j++)
+		{
+			printf("%10d  ", trianglearr[i][j]);
 		}
 		backslashN();
 	}
