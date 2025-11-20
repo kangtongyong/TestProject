@@ -4,7 +4,6 @@
 	두 개 행렬의 합, 차, 곱을 구하는 프로그램
 */
 
-
 void file06(void)
 {
 	//	기본 2차원 배열 1
@@ -14,7 +13,7 @@ void file06(void)
 		{4,5,6},
 		{7,8,9}
 	};
-
+	
 	//	기본 2차원 배열 2
 	int b[ARRAY_SIZE][ARRAY_SIZE] =
 	{
@@ -22,13 +21,13 @@ void file06(void)
 		{2,5,8},
 		{1,4,7}
 	};
-
+	
 	matrixA(a);
 	matrixB(b);
 	addAB(a, b);
 	subtractionAB(a, b);
 	multiplyAB(a, b);
-
+	
 	return;
 }
 
@@ -37,8 +36,8 @@ void file06(void)
 void matrixA(int A[][ARRAY_SIZE])
 {
 	printf("matrix A:\n");
-
-
+	
+	
 	for (int i = 0; i < ARRAY_SIZE; i++)
 	{
 		for (int j = 0; j < ARRAY_SIZE; j++)
@@ -48,7 +47,7 @@ void matrixA(int A[][ARRAY_SIZE])
 		backslashN();
 	}
 	backslashN();
-
+	
 	return;
 }
 
@@ -57,8 +56,8 @@ void matrixA(int A[][ARRAY_SIZE])
 void matrixB(int B[][ARRAY_SIZE])
 {
 	printf("matrix B:\n");
-
-
+	
+	
 	for (int i = 0; i < ARRAY_SIZE; i++)
 	{
 		for (int j = 0; j < ARRAY_SIZE; j++)
@@ -68,7 +67,7 @@ void matrixB(int B[][ARRAY_SIZE])
 		backslashN();
 	}
 	backslashN();
-
+	
 	return;
 }
 
@@ -77,8 +76,8 @@ void matrixB(int B[][ARRAY_SIZE])
 void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 {
 	printf("matrix A + matrix B:\n");
-
-
+	
+	
 	for (int i = 0; i < ARRAY_SIZE; i++)
 	{
 		for (int j = 0; j < ARRAY_SIZE; j++)
@@ -88,7 +87,7 @@ void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 		backslashN();
 	}
 	backslashN();
-
+	
 	return;
 }
 
@@ -97,8 +96,8 @@ void addAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 {
 	printf("matrix A - matrix B:\n");
-
-
+	
+	
 	for (int i = 0; i < ARRAY_SIZE; i++)
 	{
 		for (int j = 0; j < ARRAY_SIZE; j++)
@@ -108,7 +107,7 @@ void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 		backslashN();
 	}
 	backslashN();
-
+	
 	return;
 }
 
@@ -117,8 +116,8 @@ void subtractionAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 {
 	printf("matrix A * matrix B:\n");
-
-
+	
+	
 	for (int i = 0; i < ARRAY_SIZE; i++)
 	{
 		for (int j = 0; j < ARRAY_SIZE; j++)
@@ -128,6 +127,6 @@ void multiplyAB(int A[][ARRAY_SIZE], int B[][ARRAY_SIZE])
 		backslashN();
 	}
 	backslashN();
-
+	
 	return;
 }

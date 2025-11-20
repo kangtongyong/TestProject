@@ -6,19 +6,18 @@
 */
 
 
-
 void file07(void)
 {
 	int inputnum = 0;
-
+	
 	printf("파스칼의 삼각형 출력 프로그램\n\n");
-
+	
 	printf("출력할 행의 수 입력후 Enter\n");
 	printf("행의 수:");
 	scanf("%d", &inputnum);
-
+	
 	printtriangle(inputnum);
-
+	
 	return;
 }
 
@@ -27,8 +26,8 @@ void printtriangle(int repeatnum)
 {
 	int i, j;
 	int linecount = 0;
-
-
+	
+	
 	for (i = 0; i < repeatnum; i++)
 	{
 		linecount++;
@@ -38,6 +37,6 @@ void printtriangle(int repeatnum)
 		}
 		backslashN();
 	}
-
+	
 	return;
 }
