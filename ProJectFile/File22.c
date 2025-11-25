@@ -54,7 +54,7 @@ void remove_blank(char* s2)
 		{
 			continue;
 		}
-		printf("")
+		printf("%s",s2[i]);
 	}
 	backslashN();
 
