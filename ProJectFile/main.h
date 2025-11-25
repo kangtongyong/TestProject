@@ -42,7 +42,7 @@ void multiplyAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);
 
 
 //	File07.c 함수 선언
-#define ARRAY_DOUBLE_SIZE 256	//	배열 사이즈
+#define FILE07_ARRAY_SIZE 256	//	배열 사이즈
 
 void file07(void);
 void printtriangle(int repeatnum);
@@ -55,34 +55,7 @@ void bodymass(float CM, float KG);
 void Obesity(float KG, float Normal_KG_Result);
 
 //	File22.c 함수 선언
-#define FILE22_ARRAY_SIZE 10
+#define FILE22_ARRAY_SIZE 16
 
 void file22(void);
 
-//	Project22.c 구조체 및 함수 선언
-#define WEEK_COUNT 5		//	일의 개수
-#define CLASS_ROOM_NUM 6	//	수업과 강의실 이름 최대 입력
-#define CLASS_PERIOD 8		//	교시의 개수
-
-typedef struct year_seesion	//	요일 저장 구조체
-{
-	int year;
-	int session;
-	
-}Year_Seesion;
-
-
-typedef struct info_class
-{
-	char room_code[CLASS_ROOM_NUM];		//	몇일, 몇교시~교시 강의실 코드 저장
-	char class_name[CLASS_ROOM_NUM];	//	몇일, 몇교시~교시 강의 이름 저장
-	
-}INFO_CLASS;
-
-
-void project22(void);
-void case1(void);
-void case2(void);
-void case3(void);
-void case4(void);
-void case5(void);

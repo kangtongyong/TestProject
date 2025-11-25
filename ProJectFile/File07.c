@@ -26,7 +26,7 @@ void file07(void)
 //	행의 수만큼 배열에 수를 추가하고 출력하는 함수
 void printtriangle(int repeatnum)
 {
-	int trianglearr[ARRAY_DOUBLE_SIZE][ARRAY_DOUBLE_SIZE];	//	= { 1, };
+	int trianglearr[FILE07_ARRAY_SIZE][FILE07_ARRAY_SIZE];	//	= { 1, };
 	
 	
 	// 삼각형 숫자 할당
