@@ -58,5 +58,5 @@ void Obesity(float KG, float Normal_KG_Result);
 #define FILE22_ARRAY_SIZE 20
 
 void file22(void);
-void reserse_han(const char* s1, int c1);
+void reverse_han(const char* s1, int c1);
 void remove_blank(const char* s2, int c2);
