@@ -27,6 +27,9 @@ void file08(void)
 	bodymass(cm, kg);						//	신체질량지수 계산 및 판정
 	Obesity(kg, normal_kg_result);			//	비만도 계산 및 판정
 
+	int a;
+	while ((a = getchar()) != '\n' && a != EOF);	//	입력 스트림 비우기
+
 	return;
 }
 
