@@ -8,6 +8,9 @@
 
 void file22(void)
 {
+	int a;
+	while ((a = getchar()) != '\n' && a != EOF);	//	입력 스트림 비우기
+
 	char st1[FILE22_ARRAY_SIZE];	//	size 20
 	char st2[FILE22_ARRAY_SIZE];
 

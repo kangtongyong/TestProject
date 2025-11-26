@@ -12,19 +12,19 @@ void backslashN(void)
 void exefuncsion(void)
 {
 	printf("04번 문제\n\n");
-	//file04(); backslashN();
+	file04();	//	입력 > 27, 36
 	
-	printf("06번 문제\n\n");
-	//file06(); backslashN();
+	printf("\n06번 문제\n\n");
+	file06();	//	입력 > 없음
 	
-	printf("07번 문제\n\n");
-	//file07(); backslashN();
+	printf("\n07번 문제\n\n");
+	file07();	//	입력 > 7
 	
-	printf("08번 문제\n\n");
-	//file08(); backslashN();
+	printf("\n08번 문제\n\n");
+	file08();	//	입력 > 172, 75
 	
-	printf("22번 문제\n\n");
-	file22(); backslashN();
+	printf("\n22번 문제\n\n");
+	file22();	//	입력 > 프로그램, 파일 변환
 
 	return;
 }
