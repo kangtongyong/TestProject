@@ -42,7 +42,7 @@ void multiplyAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);
 
 
 //	File07.c 함수 선언
-#define FILE07_ARRAY_SIZE 256	//	배열 사이즈
+#define FILE07_ARRAY_SIZE 128	//	배열 사이즈
 
 void file07(void);
 void printtriangle(int repeatnum);
@@ -55,7 +55,8 @@ void bodymass(float CM, float KG);
 void Obesity(float KG, float Normal_KG_Result);
 
 //	File22.c 함수 선언
-#define FILE22_ARRAY_SIZE 16
+#define FILE22_ARRAY_SIZE 20
 
 void file22(void);
-
+void reserse_han(const char* s1, int c1);
+void remove_blank(const char* s2, int c2);
