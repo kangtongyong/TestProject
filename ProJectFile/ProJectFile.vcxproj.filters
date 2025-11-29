@@ -24,9 +24,6 @@
     <ClCompile Include="File04.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="exefuncsion.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="File08.c">
       <Filter>소스 파일</Filter>
     </ClCompile>

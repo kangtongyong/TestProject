@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exefuncsion.c" />
     <ClCompile Include="File04.c" />
     <ClCompile Include="File06.c" />
     <ClCompile Include="File07.c" />

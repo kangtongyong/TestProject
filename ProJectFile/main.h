@@ -10,9 +10,8 @@
 #include <stdlib.h>
 
 
-//	exefuncsion.c 함수 선언
+//	Main.c 함수 선언
 void backslashN(void);			//	줄바꿈 함수
-void exefuncsion(void);			//	메인 실행 함수
 
 
 //	File04.c 함수 선언 (최대공약수, 최소공배수)
