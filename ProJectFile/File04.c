@@ -1,4 +1,5 @@
-#include "main.h"
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
 /*
 
@@ -10,6 +11,16 @@
 
 */
 
+//	File04.c 함수 선언 (최대공약수, 최소공배수)
+void file04(void);								//	최대공약수/최소공배수 실행 함수
+int maxresult(int m, int n);					//	최대공약수 계산
+void leastresult(int M, int N, int RESULT);		//	최소공배수 계산
+
+int main(void)
+{
+	file04();	//	테스트 27, 36
+	return 0;
+}
 
 //	2개의 숫자를 입력받아 최대, 최소 공배수를 구하는 함수에 전달하는 함수
 void file04(void)
@@ -43,7 +54,7 @@ void file04(void)
 		y = temp;	//	y에 원래 x 값 저장
 	}
 
-	backslashN(); // 줄바꿈 출력
+	printf("\n");	// 줄바꿈 출력
 
 	//	최대 공약수 계산
 	result = maxresult(x, y);

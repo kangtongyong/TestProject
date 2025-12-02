@@ -1,8 +1,28 @@
-#include "main.h"
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
 /*
 	두 개 행렬의 합, 차, 곱을 구하는 프로그램
 */
+
+//	File06.c 함수 선언 (행렬 연산)
+#define FILE06_ARRAY_SIZE 3	//	행렬 크기
+
+extern int a[FILE06_ARRAY_SIZE][FILE06_ARRAY_SIZE];		//	전역 행렬 A
+extern int b[FILE06_ARRAY_SIZE][FILE06_ARRAY_SIZE];		//	전역 행렬 B
+
+void file06(void);										//	행렬 연산 실행 함수
+void matrixA(int A[][FILE06_ARRAY_SIZE]);				//	행렬 A 출력
+void matrixB(int B[][FILE06_ARRAY_SIZE]);				//	행렬 B 출력
+void addAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);				//	A+B 연산
+void subtractionAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);		//	A-B 연산
+void multiplyAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE]);		//	A*B 연산
+
+int main(void)
+{
+	file06();
+	return 0;
+}
 
 void file06(void)
 {
@@ -43,9 +63,9 @@ void matrixA(int A[][FILE06_ARRAY_SIZE])
 		{
 			printf("  %2d", A[i][j]);	//	각 원소 출력
 		}
-		backslashN();	//	행 끝마다 줄바꿈
+		printf("\n");	//	행 끝마다 줄바꿈
 	}
-	backslashN();		//	배열 출력 끝난 후 한 줄 추가
+	printf("\n");		//	배열 출력 끝난 후 한 줄 추가
 
 	return;
 }
@@ -62,9 +82,9 @@ void matrixB(int B[][FILE06_ARRAY_SIZE])
 		{
 			printf("  %2d", B[i][j]);	//	각 원소 출력
 		}
-		backslashN();	//	행 끝마다 줄바꿈
+		printf("\n");	//	행 끝마다 줄바꿈
 	}
-	backslashN();		//	배열 출력 끝난 후 한 줄 추가
+	printf("\n");		//	배열 출력 끝난 후 한 줄 추가
 
 	return;
 }
@@ -81,9 +101,9 @@ void addAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE])
 		{
 			printf("  %2d", A[i][j] + B[i][j]);	//	각 원소 합 출력
 		}
-		backslashN();	//	행 끝마다 줄바꿈
+		printf("\n");	//	행 끝마다 줄바꿈
 	}
-	backslashN();		//	합 계산 후 한 줄 추가
+	printf("\n");		//	합 계산 후 한 줄 추가
 
 	return;
 }
@@ -100,9 +120,9 @@ void subtractionAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE])
 		{
 			printf("  %2d", A[i][j] - B[i][j]);	//	각 원소 차 출력
 		}
-		backslashN();	//	행 끝마다 줄바꿈
+		printf("\n");	//	행 끝마다 줄바꿈
 	}
-	backslashN();		//	차 계산 후 한 줄 추가
+	printf("\n");		//	차 계산 후 한 줄 추가
 
 	return;
 }
@@ -119,9 +139,9 @@ void multiplyAB(int A[][FILE06_ARRAY_SIZE], int B[][FILE06_ARRAY_SIZE])
 		{
 			printf("  %2d", A[i][j] * B[i][j]);	//	각 원소 곱 출력
 		}
-		backslashN();	//	행 끝마다 줄바꿈
+		printf("\n");	//	행 끝마다 줄바꿈
 	}
-	backslashN();		//	합 계산 후 한 줄 추가
+	printf("\n");		//	합 계산 후 한 줄 추가
 
 	return;
 }
