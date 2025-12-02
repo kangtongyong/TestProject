@@ -23,7 +23,7 @@ int main(void)
 	return 0;
 }
 
-static int trianglearr[FILE07_ARRAY_SIZE][FILE07_ARRAY_SIZE];	//	삼각형 값을 저장할 2차원 배열
+int trianglearr[FILE07_ARRAY_SIZE][FILE07_ARRAY_SIZE];	//	삼각형 값을 저장할 2차원 배열
 
 //	입력할 행의 수를 입력받는 함수
 void file07(void)
