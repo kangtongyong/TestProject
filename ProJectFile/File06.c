@@ -1,11 +1,16 @@
+/*
+	파일명 : 프로그래밍 13주차 과제 06번 문제
+	내  용 : 두 개 행렬의 합, 차, 곱을 구하는 프로그램
+
+	작성자 : 양현인
+
+*/
+
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-/*
-	두 개 행렬의 합, 차, 곱을 구하는 프로그램
-*/
 
-//	File06.c 함수 선언 (행렬 연산)
 #define FILE06_ARRAY_SIZE 3	//	행렬 크기
 
 extern int a[FILE06_ARRAY_SIZE][FILE06_ARRAY_SIZE];		//	전역 행렬 A

@@ -1,12 +1,16 @@
+/*
+	파일명 : 프로그래밍 13주차 과제 08번 문제
+	내  용 : 신장과 체중을 입력 하여, 표준 체중, 신체질량지수, 비만도를 계산
+			 각각의 비만도를 판정하는 프로그램
+
+	작성자 : 양현인
+
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-/*
-	신장과 체중을 입력 하여, 표준 체중, 신체질량지수, 비만도를 계산
-	각각의 비만도를 판정하는 프로그램
-*/
 
-//	File08.c 함수 선언 (비만도 계산)
 void file08(void);									//	비만도 측정 실행 함수
 double normalkg(double CM);							//	표준 체중 계산
 void bodymass(double CM, double KG);					//	신체질량지수 계산

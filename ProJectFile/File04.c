@@ -1,17 +1,17 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-
 /*
-
-	임의의 두 정수를 입력받아 유클리드 호제법을
-	이용하여, 최대 공약수와 최소 공배수를 출력하는
-	프로그램
-
-	입력될 두 숫자 x, y 라 하고 x < y 임을 가정
+	파일명 : 프로그래밍 13주차 과제 04번 문제
+	내  용 : 임의의 두 정수를 입력받아 유클리드 호제법을
+			 이용하여, 최대 공약수와 최소 공배수를 출력하는 프로그램
+			 입력될 두 숫자 x, y 라 하고 x < y 임을 가정
+	작성자 : 양현인
 
 */
 
-//	File04.c 함수 선언 (최대공약수, 최소공배수)
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+
 void file04(void);								//	최대공약수/최소공배수 실행 함수
 int maxresult(int m, int n);					//	최대공약수 계산
 void leastresult(int M, int N, int RESULT);		//	최소공배수 계산

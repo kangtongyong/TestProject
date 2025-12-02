@@ -1,14 +1,18 @@
+/*
+	파일명 : 프로그래밍 13주차 과제 08번 문제
+	내  용 : 입력된 한글 문자열에 대해 문자열 역순 변환과
+			 공백 제거 을 처리하는 프로그램
+
+	작성자 : 양현인
+
+*/
+
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
 
-/*
-	입력된 한글 문자열에 대해 다음을 처리하는 함수와 프로그램
-	EUC-KR 환경
-*/
-
-//	File22.c 함수 선언 (한글 문자열 처리)
 #define FILE22_ARRAY_SIZE 20	//	문자열 최대 길이
 
 void file22(void);									//	한글 문자열 처리 실행 함수
